@@ -1,0 +1,24 @@
+{
+  "name": "poc_buffer-bug",
+  "version": "1.0.0",
+  "description": "POC for bug",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "lint": "tslint -c tslint.json src/**/*.ts",
+    "prepublish": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "tslint": "^6.1.3",
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "./bin/*",
+    "./lib/*"
+  ],
+  "typings": "./lib/index.d.ts"
+}
